@@ -24,6 +24,7 @@
         "drupal/config_split": "^1.4",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
+        "drupal/maillog": "1.x-dev",
         "drupal/module_filter": "^3.1",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
