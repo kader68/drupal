@@ -1,0 +1,17 @@
+uuid: d41914cd-9a74-4ce0-a5e3-66aeffa02519
+langcode: fr
+status: false
+dependencies: {  }
+id: prod
+label: PROD
+description: ''
+folder: ../config/prod
+module:
+  admin_toolbar_tools: 0
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.site
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
