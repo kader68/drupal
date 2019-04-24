@@ -1,0 +1,43 @@
+hello.hello:
+  path: '/hello/{param}'
+  defaults:
+    _title: 'Hello'
+    _controller: '\Drupal\hello\Controller\HelloController::content'
+    param: 'Félicitation !'
+  requirements:
+    _access: 'TRUE'
+
+hello.node_list:
+  path: '/hello/node_list/{nodetype}'
+  defaults:
+    _title: 'Node List'
+    _controller: '\Drupal\hello\Controller\NodeListController::content'
+    nodetype: ''    
+  requirements:
+    _access: 'TRUE'
+
+hello.statistics:
+  path: '/user/{user}/statistics'
+  defaults:
+    _title: 'Module List'
+    _controller: '\Drupal\hello\Controller\ModuleListController::content'
+    nodetype: ''    
+  requirements:  
+    _access_hello: '9'
+
+hello.form:
+  path: '/hello/helloform'
+  defaults:
+    _title: 'Calculateur'
+    _form: '\Drupal\hello\Form\HelloForm'
+  requirements:
+    _access: 'TRUE'
+hello.userstatistics:
+  path: '/admin/hellouserstatistics'
+  defaults:
+    _title: 'User Statistics'
+    _form: '\Drupal\hello\Form\HelloUserStatistics'
+  requirements:
+    _access: 'TRUE'  
+  
+

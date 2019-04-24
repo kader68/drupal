@@ -1,0 +1,6 @@
+config_example.admin:
+  title: 'Config example'
+  route_name: config_example.admin_form
+  description: 'Config example'
+  menu_name: admin
+  parent: system.admin_config

@@ -1,0 +1,7 @@
+config_example.admin_form:
+  path: '/admin/config/config-example'
+  defaults:
+    _title: 'Config Example'
+    _form: '\Drupal\config_example\Form\ConfigExampleAdminForm'
+  requirements:
+    _permission: 'access config_example'

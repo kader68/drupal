@@ -1,0 +1,14 @@
+uuid: 39e880ff-ac87-4bc0-9cf4-94811acf0ad6
+name: Cezamie_boul
+mail: kaderhood@free.fr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

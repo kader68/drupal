@@ -1,0 +1,3 @@
+access config_example:
+  title: 'Access Config Example front pages'
+  description: 'Allow user to access Config Example front pages.'

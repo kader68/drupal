@@ -1,0 +1,7 @@
+access hello:
+  title: 'Access hello'
+  description: 'Allow user to access user connection statistics tab.'
+
+administer hello:
+  title: 'Administer Hello'
+  description: 'Allow user to access and administer Hello admin page.'
