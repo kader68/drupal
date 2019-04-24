@@ -1,0 +1,56 @@
+<?php
+use Drupal\Core\Database\Database;
+
+function hello_schema(){
+
+$schema['hello_user_statistics'] = [
+   'description' => 'Stores user connection statistics.',
+   'fields' => [
+     'id' => [
+       'description' => 'Primary Key: Unique history ID.',
+       'type' => 'serial',
+       'unsigned' => TRUE,
+       'not null' => TRUE,
+     ],
+     'time' => [
+       'description' => 'Timestamp of user action.',
+       'type' => 'int',
+       'unsigned' => TRUE,
+       'not null' => TRUE,
+     ],
+     'uid' => [
+       'type' => 'int',
+       'description' => "Store user ID.",
+       'unsigned' => TRUE,
+       'not null' => TRUE,
+     ],
+
+      'action' => [
+
+      'description' => 'Details de connection',
+      'type' => 'int',     
+      'not null' => TRUE,
+      'length' => 1
+
+    ],
+  ],   
+   'primary key' => ['id'],
+ ];
+ return $schema;
+}
+
+function hello_update_8003(){
+
+   $field_spec = [
+
+      'description' => 'Details de connection',
+      'type' => 'int',     
+      'not null' => TRUE,
+      'length' => 1
+
+    ];
+
+ $schema = Database::getConnection()->schema();
+ $schema->addField('hello_user_statistics','action',$field_spec);
+
+ }

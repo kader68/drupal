@@ -1,0 +1,7 @@
+name: Config Example
+description: 'Config example form for D8 deployment training.'
+type: module
+core: 8.x
+version: 8.x-1.0
+package: Training
+configure: config_example.admin_form
