@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: K3KVksdkREnIdd2idoIA9TDHQew_WreFzTG-DHmz9Z4
 id: language
-label: Langue
+label: Language
 module: language
 routes:
   -
@@ -16,7 +16,7 @@ tips:
   language-overview:
     id: language-overview
     plugin: text
-    label: Langues
+    label: Languages
     body: '<p>La page "Langues" vous permet d''ajouter, de modifier, de supprimer et réordonner les langues sur le site.</p>'
     weight: 1
   language-add:

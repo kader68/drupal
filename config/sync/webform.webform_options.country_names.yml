@@ -1,0 +1,14 @@
+uuid: e5285745-0331-4c6a-b879-2f25c644ef90
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: zsfFP124dAM-sJkuEfnwaA7DN6o3-IsaXLgdNmObbYg
+id: country_names
+label: 'Country names'
+category: Géographique
+likert: false
+options: ''

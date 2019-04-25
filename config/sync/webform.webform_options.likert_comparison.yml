@@ -1,0 +1,14 @@
+uuid: ee2c036e-6b2c-413a-9e40-b40d2e66cef8
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: gZCLESMdXmEZxHqnQFx7a0rUefrkVuFzHSMnWe0qioM
+id: likert_comparison
+label: 'Likert: Comparison'
+category: Likert
+likert: true
+options: "1: Pas du tout d'accord\r\n2: Pas d'accord\r\n3: Ni en désaccord ni d'accord\r\n4: D'accord\r\n5: Tout à fait d'accord\n"
