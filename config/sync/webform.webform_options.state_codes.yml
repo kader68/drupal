@@ -1,0 +1,14 @@
+uuid: 6bc446bf-8a4b-485b-978b-9a832f6413a7
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: 8mYO8ewsZX3LVfNga69jXa0RNO0LNN8-EGkXLhSAMBU
+id: state_codes
+label: 'Codes des États'
+category: Géographique
+likert: false
+options: "AL: Alabama\r\nAK: Alaska\r\nAZ: Arizona\r\nAR: Arkansas\r\nCA: Californie\r\nNC: Caroline du Nord\r\nSC: Caroline du Sud\r\nCO: Colorado\r\nCT: Connecticut\r\nND: Dakota du Nord\r\nSD: Dakota du Sud\r\nDE: Delaware\r\nFL: Floride\r\nGA: Géorgie\r\nHI: Hawaï\r\nID: Idaho\r\nIL: Illinois\r\nIN: Indiana\r\nIA: Iowa\r\nKS: Kansas\r\nKY: Kentucky\r\nLA: Louisiane\r\nME: Maine\r\nMD: Maryland\r\nMA: Massachusetts\r\nMI: Michigan\r\nMN: Minnesota\r\nMS: Mississippi\r\nMO: Missouri\r\nMT: Montana\r\nNE: Nebraska\r\nNV: Nevada\r\nNH: New Hampshire\r\nNJ: New Jersey\r\nNM: Nouveau-Mexique\r\nNY: New York\r\nOH: Ohio\r\nOK: Oklahoma\r\nOR: Oregon\r\nPA: Pennsylvanie\r\nRI: Rhode Island\r\nTN: Tennessee\r\nTX: Texas\r\nUT: Utah\r\nVT: Vermont\r\nVA: Virginie\r\nWV: Virginie-Occidentale\r\nWA: Washington\r\nWI: Wisconsin\r\nWY: Wyoming\n"

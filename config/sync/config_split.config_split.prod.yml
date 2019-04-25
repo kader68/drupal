@@ -12,6 +12,7 @@ theme: {  }
 blacklist: {  }
 graylist:
   - system.site
+  - 'webform.*'
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0

@@ -31,8 +31,8 @@ display:
         options:
           submit_button: Filtrer
           reset_button: true
-          reset_button_label: Réinitialiser
-          exposed_sorts_label: 'Trier par'
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -43,8 +43,8 @@ display:
           tags:
             previous: '‹ Précédent'
             next: 'Suivant ›'
-            first: '« Premier'
-            last: 'Dernier »'
+            first: '« First'
+            last: 'Last »'
       style:
         type: table
         options:
@@ -312,7 +312,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Actions
+          label: Operations
           exclude: false
           alter:
             alter_text: false
@@ -496,7 +496,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Langue
+            label: Language
             description: ''
             use_operator: false
             operator: langcode_op
@@ -559,7 +559,7 @@ display:
           1: AND
       display_extenders: {  }
     display_plugin: default
-    display_title: Maître
+    display_title: Master
     id: default
     position: 0
     cache_metadata:
