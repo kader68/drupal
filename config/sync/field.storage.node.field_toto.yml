@@ -1,0 +1,30 @@
+uuid: 35772716-952d-4ac6-b41f-978fa63a714d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_toto
+field_name: field_toto
+entity_type: node
+type: image
+settings:
+  uri_scheme: private
+  default_image:
+    uuid: 2a1ee50b-17ac-41a0-bc64-0604c1fe64bf
+    alt: ''
+    title: image
+    width: 216
+    height: 180
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
