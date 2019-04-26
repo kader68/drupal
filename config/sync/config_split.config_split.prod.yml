@@ -6,8 +6,7 @@ id: prod
 label: PROD
 description: ''
 folder: ../config/prod
-module:
-  admin_toolbar_tools: 0
+module: {  }
 theme: {  }
 blacklist: {  }
 graylist:
