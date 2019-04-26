@@ -1,0 +1,5 @@
+services:
+  perf.perf:
+    class: Drupal\perf\LazyBuildersService
+    arguments: []
+    

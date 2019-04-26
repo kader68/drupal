@@ -1,0 +1,7 @@
+services:
+  config_override.overrider:
+    class: Drupal\config_override\Overrider
+    arguments: ['@current_user']
+    tags:
+      - {name: config.factory.override, priority: 105}
+
