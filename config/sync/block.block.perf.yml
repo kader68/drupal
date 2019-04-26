@@ -1,0 +1,20 @@
+uuid: ef6ee8c4-732a-4724-912c-4d6e0396a7a0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - perf
+  theme:
+    - bartik
+id: perf
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: perf_block
+settings:
+  id: perf_block
+  label: 'Perf '
+  provider: perf
+  label_display: visible
+visibility: {  }

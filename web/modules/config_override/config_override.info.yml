@@ -1,0 +1,5 @@
+name: Config Override
+type: module
+description: Overrides configurations.
+core: 8.x
+package: Training
